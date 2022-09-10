@@ -1,0 +1,33 @@
+.container{
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.box{
+    height: 150px;
+    width: 150px;
+    background-color: teal;
+    margin: 1px;
+    border-radius: 10px;
+    transition:0.5s ;
+    border:2px solid and darkkhaki ;
+}
+@keyframes mymove {
+    from {top: 0px;}
+    to {top: 200px;}
+  }
+.box:hover{
+    background-color: turquoise;
+    box-shadow: inset;
+
+}
+.body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
